@@ -57,8 +57,8 @@ def l2_chart(
     current_price = (bid_orders["price"].max() + ask_orders["price"].min()) / 2
 
     # Define the price range to display
-    min_price = min_price or (current_price * 0.5)
-    max_price = max_price or (current_price * 1.5)
+    min_price = min_price or (current_price * 0.99)
+    max_price = max_price or (current_price * 1.01)
 
     # Filter the data to the specified range
     ask_orders_filtered = ask_orders[

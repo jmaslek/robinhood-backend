@@ -50,6 +50,7 @@
     "defaultViz": "chart",
     "endpoint": "l2-chart",
     "refetchInterval": 1100,
+    "staleTime": 1100,
     "gridData": {
       "w": 20,
       "h": 9
