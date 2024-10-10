@@ -21,7 +21,6 @@ def main_holdings():
             "percentage",
         ]
     ]
-    print(df.to_dict("records"))
     return df.to_dict("records")
 
 

@@ -1,28 +1,4 @@
-{"hello": {
-    "name": "hello",
-    "description": "Hello",
-    "category": "sports",
-    "searchCategory": "football",
-    "defaultViz": "table",
-    "endpoint": "hello",
-    "gridData": {
-      "w": 20,
-      "h": 9
-    },
-    "data": {
-      "table": {
-        "showAll": true
-      }
-    },
-    "params": [
-      {
-        "paramName": "name",
-        "value": "",
-        "label": "Name",
-        "type": "text"
-      }
-    ]
-  },
+{
   "holdings":
   {
     "name": "holdings",

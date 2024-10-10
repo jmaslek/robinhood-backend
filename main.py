@@ -64,10 +64,6 @@ async def root():
     return {"Info": "Backend For OpenBB Terminal with Custom Robinhood"}
 
 
-@app.get("/hello")
-async def say_hello(name: str):
-    return {"message": f"Hello {name}"}
-
 
 @app.get("/holdings")
 async def get_holdings():
