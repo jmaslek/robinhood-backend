@@ -1,0 +1,4 @@
+pandas
+fastapi
+robin_stocks
+plotly

@@ -69,10 +69,11 @@
   {
     "name": "l2_chart",
     "description": "L2 Data Visual from Robinhood Gold",
-    "category": Equity,
+    "category": "Equity",
     "searchCategory": "Equity",
     "defaultViz": "chart",
     "endpoint": "l2-chart",
+    "refetchInterval": 1100,
     "gridData": {
       "w": 20,
       "h": 9
