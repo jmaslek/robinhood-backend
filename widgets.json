@@ -1,0 +1,103 @@
+{"hello": {
+    "name": "hello",
+    "description": "Hello",
+    "category": "sports",
+    "searchCategory": "football",
+    "defaultViz": "table",
+    "endpoint": "hello",
+    "gridData": {
+      "w": 20,
+      "h": 9
+    },
+    "data": {
+      "table": {
+        "showAll": true
+      }
+    },
+    "params": [
+      {
+        "paramName": "name",
+        "value": "",
+        "label": "Name",
+        "type": "text"
+      }
+    ]
+  },
+  "holdings":
+  {
+    "name": "holdings",
+    "description": "Hello",
+    "category": "Portfolio",
+    "searchCategory": "Portfolio",
+    "defaultViz": "table",
+    "endpoint": "holdings",
+    "gridData": {
+      "w": 20,
+      "h": 9
+    },
+    "data": {
+      "table": {
+        "showAll": true
+      }
+    }
+  },
+  "l2_data":
+  {
+    "name": "l2_data",
+    "description": "L2 Data from Robinhood Gold",
+    "category": "Equity",
+    "searchCategory": "Equity",
+    "defaultViz": "table",
+    "endpoint": "l2",
+    "gridData": {
+      "w": 20,
+      "h": 9
+    },
+    "data": {
+      "table": {
+        "showAll": true
+      }
+    },
+    "params": [
+      {
+        "paramName": "symbol",
+        "label": "Symbol",
+        "type": "text"
+      }]
+  },
+  "l2_chart":
+  {
+    "name": "l2_chart",
+    "description": "L2 Data Visual from Robinhood Gold",
+    "category": Equity,
+    "searchCategory": "Equity",
+    "defaultViz": "chart",
+    "endpoint": "l2-chart",
+    "gridData": {
+      "w": 20,
+      "h": 9
+    },
+    "data": {
+      "table": {
+        "showAll": true
+      }
+    },
+    "params": [
+      {
+        "paramName": "symbol",
+        "label": "Symbol",
+        "type": "text"
+      },
+      {
+        "paramName": "min_price",
+        "label": "Min Price",
+        "type": "number"
+      },
+      {
+        "paramName": "max_price",
+        "label": "Min Price",
+        "type": "number"
+      }
+    ]
+  }
+  }
