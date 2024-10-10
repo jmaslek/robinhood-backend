@@ -1,4 +1,13 @@
+# Robinhood Custom Backend
 
+This shows an example of how to add a custom backend.
+
+Currently there are 3 widgets
+- Holdings - showing current equity positions
+- L2 data - tabular format of L2 data (RH Gold required)
+- L2 chart - showing order book depth (Gold also required)
+
+After you clone the repo, you can run:
 
 ```bash
 python -m venv .venv
