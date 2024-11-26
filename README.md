@@ -1,5 +1,8 @@
 # Robinhood Custom Backend
 
+![1728583228299](https://github.com/user-attachments/assets/d6b2273c-94aa-46d6-b92c-9614c1c78321)
+
+
 This shows an example of how to add a custom backend.
 
 Currently there are 3 widgets
